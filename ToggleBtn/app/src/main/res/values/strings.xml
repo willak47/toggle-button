@@ -1,3 +1,5 @@
 <resources>
+    <string name="hello">WELCOME TO TREE HUT WORLD.\nThis is a friendly user app.\nWe expect to hear from you soon.\nBye.</string>
+   <string name="BUTTON">HIT</string>
     <string name="app_name">Toggle Btn</string>
 </resources>

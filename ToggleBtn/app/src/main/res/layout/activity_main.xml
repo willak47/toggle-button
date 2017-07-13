@@ -10,6 +10,17 @@
     android:paddingTop="16dp"
     tools:context="treehut.togglebtn.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility ="invisible"
+        android:id="@+id/helloTextView" />
+
+
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
@@ -18,8 +29,22 @@
         android:textOn="magenta"
         android:textOff="WHITE"
         android:onClick="toggleClick"
-        android:layout_marginTop="136dp"  />
+        android:layout_marginTop="99dp"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
 
-   //textOff and textOn text is shown when button is pressed.
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BUTTON"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onHitButtonClicked"
+        android:layout_marginBottom="37dp" />
+
+
+    //textOff and textOn text is shown when button is pressed.
     //onClick is used to perform click event for togglebutton.
 </RelativeLayout>
